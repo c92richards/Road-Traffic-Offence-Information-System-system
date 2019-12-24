@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from wrappixel.com/demos/admin-templates/admin-pro/minimal/index4.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Sep 2019 10:16:44 GMT -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="https://wrappixel.com/demos/admin-templates/admin-pro/assets/images/favicon.png">
+    <title>Road Traffic Offence Information System</title>
+	<link rel="canonical" href="https://www.wrappixel.com/templates/adminpro/" />
+    <!-- Bootstrap Core CSS -->
+    <link href="https://wrappixel.com/demos/admin-templates/admin-pro/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://wrappixel.com/demos/admin-templates/admin-pro/assets/plugins/perfect-scrollbar/dist/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <!-- This page CSS -->
+    <!-- Vector CSS -->
+    <link href="https://wrappixel.com/demos/admin-templates/admin-pro/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+    <!-- chartist CSS -->
+    <link href="https://wrappixel.com/demos/admin-templates/admin-pro/assets/plugins/chartist-js/dist/chartist.min.css" rel="stylesheet">
+    <link href="https://wrappixel.com/demos/admin-templates/admin-pro/assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Dashboard 1 Page CSS -->
+    <link href="css/pages/dashboard4.css" rel="stylesheet">
+    <!-- You can change the theme colors from here -->
+    <link href="css/colors/default.css" id="theme" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body class="fix-header fix-sidebar card-no-border">
+    <!-- ============================================================== -->
+    <!-- Preloader - style you can find in spinners.css -->
+    <!-- ============================================================== -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader__figure"></div>
+            <p class="loader__label">Road traffic offence system</p>
+        </div>
+    </div>
+    <!-- ============================================================== -->
+    <!-- Main wrapper - style you can find in pages.scss -->
+    <!-- ============================================================== -->
+    <div id="main-wrapper">
+        <!-- ============================================================== -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- ============================================================== -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <!-- ============================================================== -->
+                <!-- Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <!-- Logo icon --><b>
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                             <img src="https://wrappixel.com/demos/admin-templates/admin-pro/assets/images/logo-icon.png" alt="homepage" class="dark-logo" />
+                             <span><b> Safety </b> System </span>
+                             
+                            
+                            <!-- Light Logo icon -->
+                            <img src="https://wrappixel.com/demos/admin-templates/admin-pro/assets/images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text --><span>
+                         <!-- dark Logo text -->
+                         
+                         <!-- Light Logo text -->    
+                         <img src="https://wrappixel.com/demos/admin-templates/admin-pro/assets/images/logo-light-text.png" class="light-logo" alt="homepage" /></span> </a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav mr-auto">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a class="nav-link nav-toggler hidden-md-up waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                        <li class="nav-item"> <a class="nav-link sidebartoggler hidden-sm-down waves-effect waves-dark" href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- User profile and search -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav my-lg-0">
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        
+                       
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="https://wrappixel.com/demos/admin-templates/admin-pro/assets/images/users/1.jpg" alt="user" class="profile-pic" /></a>
+                            <div class="dropdown-menu dropdown-menu-right animated flipInY">
+                                <ul class="dropdown-user">
+                                   
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="index.html"><i class="fa fa-power-off"></i> Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- ============================================================== -->
+        <!-- End Topbar header -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- ============================================================== -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                       
+                        		<li class="nav-devider"></li>
+                        		<li ><a href="dashboard.html">Dashboard</a></li>
+                      			<li><a href="offender.html">Add Offenders</a></li>
+                               	<li><a href="viewoffender.html">View offenders</a></li>
+                        
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+        </aside>
+        <!-- Page wrapper  -->
+        <!-- ============================================================== -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Container fluid  -->
+            <!-- ============================================================== -->
+            <div class="container-fluid">
+                <!-- ============================================================== -->
+                <!-- Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <div class="row page-titles">
+                    <div class="col-md-5 align-self-center">
+                        <h3 class="text-themecolor">offence Table</h3>
+                    </div>
+                    <div class="col-md-7 align-self-center">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="dashboard.html">Home</a></li>
+                            <li class="breadcrumb-item">offenders</li>
+                            <li class="breadcrumb-item active">offenders forms</li>
+                        </ol>
+                    </div>
+                    <div class="">
+                        <button class="right-side-toggle waves-effect waves-light btn-inverse btn btn-circle btn-sm pull-right m-l-10"><i class="ti-settings text-white"></i></button>
+                    </div>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Bread crumb and right sidebar toggle -->
+                <!-- ============================================================== -->
+                <!-- ============================================================== -->
+                <!-- Start Page Content -->
+                <!-- ============================================================== -->
+         
+           
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Add Offenders</h4> 
+                                <form class="m-t-40" action="includes/api.php" method="post"  id="fileUploadForm" enctype="multipart/form-data">
+                                    <div class="form-group">
+                                        <h5>First Name<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" name="first" class="form-control" > </div>
+                                        <div class="form-control-feedback"><small>Add <code>required</code> attribute to field for required validation.</small></div>
+                                    </div>
+                                  <div class="form-group">
+                                        <h5>Last Name<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" name="last" class="form-control" > </div>
+                                        <div class="form-control-feedback"><small>Add <code>required</code> attribute to field for required validation.</small></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <h5>Car Details<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text"  class="form-control" name="car" > </div>
+                                    </div>
+                                  <!-- equired data-validation-required-message="This field is required"-->
+                                    <div class="form-group">
+                                        <h5>State<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" class="form-control" name="state" > </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <h5>location<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" name="location"  class="form-control" > </div>
+                                    </div>
+                                  <div class="form-group">
+                                        <h5>Phone No<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" name="mobile" class="form-control" > </div>
+                                    </div>
+                                  <div class="form-group">
+                                        <h5>City<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" name="city" class="form-control" > </div>
+                                    </div>
+                                  <div class="form-group">
+                                        <h5>Picture Upload<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="file" name="picture" class="form-control" > </div>
+                                    </div>
+                                  <div class="form-group">
+                                        <h5>Address<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" name="address" class="form-control" > </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="form-group">
+                                        <h5>Enter Email Address <span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="email" class="form-control" placeholder="Email Address"  name="email" > </div>
+                                    </div>
+                                  
+                                    <div class="form-group">
+                                        <h5>Enter Date <span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="date" class="form-control" placeholder="MM/DD/YYYY" name="date"> </div>
+                                    	</div>
+                                  
+                                    <div class="form-group">
+                                        <h5>Offence Type<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <select name="select" id="select" required class="form-control" onchange="getprice(this)"   >
+                                                <option value="">Select Offence</option>
+                                               
+                                                
+                                            </select>
+                                        </div>
+                                    </div>
+                                   <div class="form-group">
+                                        <h5>Penalty For Offence<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" id="penalty" name="penalty" class="form-control" readonly/> 
+                                     </div>
+                                    </div>
+                                  <div class="form-group">
+                                        <h5>Officer Incharge<span class="text-danger">*</span></h5>
+                                        <div class="controls">
+                                            <input type="text" id="officer" name="officer" class="form-control" >
+                                        </div>
+                                    </div>
+             
+                                    <div class="text-xs-right">
+                                        <button type="submit" id="btnSubmit" name="action" value="offenders" class="btn btn-info">Submit</button>
+                                      
+                                      <button type="reset" class="btn btn-inverse ma8">Cancel</button>
+                                      
+                                      
+                                      
+                                      
+                 
+                                      
+    				</div>
+  				</form>
+ 			</div>
+ 		</div>
+	</div>
+</div>
+           
+                <!-- ============================================================== -->
+            
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Container fluid  -->
+            <!-- ============================================================== -->
+            <!-- ============================================================== -->
+            <!-- footer -->
+            <!-- ============================================================== -->
+            <footer class="footer text-center"> Road Traffic Offence Information System designed by Charles and Princess © 2019 </footer>
+            <!-- ============================================================== -->
+            <!-- End footer -->
+            <!-- ============================================================== -->
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Page wrapper  -->
+        <!-- ============================================================== -->
+    </div>
+    <!-- ============================================================== -->
+    <!-- End Wrapper -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="https://wrappixel.com/demos/admin-templates/admin-pro/assets/plugins/jquery/jquery.min.js"></script>
+  <script>
+    
+    /* get offence script here */
+    function getoffence(){
+      
+      $.post('includes/api.php',{
+      
+    action:'view'
+      },function(data){
+            $('#select').append(data);
+             
+      }
+            )
+    
+
+    }
+    
+    getoffence();
+    
+/* get price script */
+      function getprice(n){
+      var myid=n.value;
+      $.post('includes/api.php',{
+        
+      	id: myid,
+    	action:'getprice'
+        
+      },function(data){
+        
+            $('#penalty').val(data);
+             
+      })
+    }
+    
+    getprice();
+
+  </script>
+  
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="https://wrappixel.com/demos/admin-templates/admin-pro/assets/plugins/bootstrap/js/popper.min.js"></script>
+    <script src="https://wrappixel.com/demos/admin-templates/admin-pro/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="js/perfect-scrollbar.jquery.min.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--stickey kit -->
+    <script src="https://wrappixel.com/demos/admin-templates/admin-pro/assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="https://wrappixel.com/demos/admin-templates/admin-pro/assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <!--Custom JavaScript -->
+    <script src="js/custom.min.js"></script>
+    <script src="js/validation.js"></script>
+    <script>
+    ! function(window, document, $) {
+        "use strict";
+        $("input,select,textarea").not("[type=submit]").jqBootstrapValidation();
+    }(window, document, jQuery);
+    </script>
+    <!-- ============================================================== -->
+    <!-- Style switcher -->
+    <!-- ============================================================== -->
+    <script src="https://wrappixel.com/demos/admin-templates/admin-pro/assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+</body>
+
+
+<!-- Mirrored from wrappixel.com/demos/admin-templates/admin-pro/minimal/form-validation.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Sep 2019 10:17:14 GMT -->
+</html>
